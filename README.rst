@@ -43,7 +43,7 @@ If you are installing on a Mac M1, numba is not yet pip-installable. Try this wo
 Note that, for some older Mac operating systems, you may need to specify scipy==1.1.0 (If you see a Segmentation Fault when trying to use Combs2, try this.). After creating the env_combs environment, add the path to Combs2 to your **.bash_profile** or **.bashrc** (which is usually in your home directory): ::
 
     > vi .bash_profile
-    export PYTHONPATH="/Users/npolizzi/Projects/design/Combs2/:$PYTHONPATH"
+    export PYTHONPATH="/Users/npolizzi/Projects/design/Combs2024/:$PYTHONPATH"
 
 Exchange the python path above to your own path to Combs2.  For Linux, you may need to drop the quotes or change them to single quotes.  Now you can activate the Combs2 virtual environment and use Combs2, interactively or in scripts, e.g. ::
 
