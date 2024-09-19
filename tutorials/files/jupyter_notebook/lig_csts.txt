@@ -1,0 +1,15 @@
+# cst_group resname name CG_type CG_groups COntact DistanceBuried HasVdM HasVdMinPose
+# if any condition within a cst_group is satisfied, the filter passes
+1 GG2 HN31 CO hb DB <0.5              # if HN31 is buried by more than 0.5 Ang within alpha hull, it must have COntact hb.  CO can be hb, cc, wc.
+2 GG2 O1 CO hb,cc DB <0.5             
+3 GG2 O2 CO hb,cc DB <0.5          
+4 GG2 O3 CO hb,cc DB <0.5
+5 GG2 O1 HVMp 1 DB <0.5               # if O1 is buried by more than 0.5 Ang within alpha hull, it must have a vdM in the pose.
+6 GG2 O2 HVMp 3 DB <0.5            
+7 GG2 O3 HVMp 2 DB <0.5
+8 GG2 HN31 CO hb                      # cst_group 8 means every ligand must have at least 1 hb to any one of these 5 atoms.
+8 GG2 O1 CO hb                        # In general, if at least 1 cst in a cst_group is satisfied, the filter passes.
+8 GG2 O2 CO hb           
+8 GG2 O3 CO hb          
+#9 _ _ CGt conh2 CGgr 1 HVM
+#10 _ _ CGt bb_cco CGgr 1,2 HVM 

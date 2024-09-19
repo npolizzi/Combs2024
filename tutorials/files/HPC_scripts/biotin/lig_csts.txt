@@ -1,0 +1,16 @@
+# cst_group resname name CG_type CG_groups COntact DistanceBuried HasVdM HasVdMinPose
+# if any condition within a cst_group is satisfied, the filter passes
+1 BTN O3 CO hb DB <0.5
+#2 BTN HN1 CO hb DB <0.5
+#3 BTN O11 CO hb DB <0.5
+#4 BTN HN2 CO hb DB <0.5
+#5 BTN O12 CO hb DB <0.5
+#6 _ _ CGt bb_cnh CGgr 1,2 HVM
+#7 _ _ CGt bb_cnh CGgr 3,4 HVM
+#8 _ _ CGt bb_cco CGgr 1,2 HVM
+#9 _ _ CGt coo CGgr 1,2 HVM
+#10 _ _ HVMp 1
+#11 _ _ HVMp 3
+#12 _ _ HVMp 4
+#13 _ _ HVMp 5
+14 BTN O3 AD 27 A CA >3.5 <6.5 # cst gr number, lig resname, lig atom name, atom distance flag, template resnum, template chain, template atom name, distance lower bound (Angstroms), distance upper bound (Angstroms). 

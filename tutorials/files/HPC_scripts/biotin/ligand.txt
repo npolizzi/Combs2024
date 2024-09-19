@@ -1,0 +1,118 @@
+# List of corresponding ligand atoms to amino-acid atoms
+# ligand residue name, atom name, amino-acid residue name, atom name, CG type, CG group number, CG ligand coverage number
+
+BTN O12 GLU OE2 coo 1 1
+BTN C11 GLU CD coo 1 1
+BTN O11 GLU OE1 coo 1 1
+BTN C10 GLU CG coo 1 1
+BTN O12 ASP OD2 coo 1 1
+BTN C11 ASP CG coo 1 1
+BTN O11 ASP OD1 coo 1 1
+BTN C10 ASP CB coo 1 1
+
+BTN O11 GLU OE2 coo 2 1
+BTN C11 GLU CD coo 2 1
+BTN O12 GLU OE1 coo 2 1
+BTN C10 GLU CG coo 2 1
+BTN O11 ASP OD2 coo 2 1
+BTN C11 ASP CG coo 2 1
+BTN O12 ASP OD1 coo 2 1
+BTN C10 ASP CB coo 2 1
+
+BTN O3 ALA O bb_cco 1 3
+BTN C3 ALA C bb_cco 1 3
+BTN N2 ALA CA bb_cco 1 3
+BTN O3 GLY O bb_cco 1 3
+BTN C3 GLY C bb_cco 1 3
+BTN N2 GLY CA bb_cco 1 3
+BTN O3 PRO O bb_cco 1 3
+BTN C3 PRO C bb_cco 1 3
+BTN N2 PRO CA bb_cco 1 3
+
+BTN O3 ALA O bb_cco 2 3
+BTN C3 ALA C bb_cco 2 3
+BTN N1 ALA CA bb_cco 2 3
+BTN O3 GLY O bb_cco 2 3
+BTN C3 GLY C bb_cco 2 3
+BTN N1 GLY CA bb_cco 2 3
+BTN O3 PRO O bb_cco 2 3
+BTN C3 PRO C bb_cco 2 3
+BTN N1 PRO CA bb_cco 2 3
+
+BTN C3 ALA CA bb_cnh 1 4
+BTN N2 ALA N bb_cnh 1 4
+BTN HN2 ALA H bb_cnh 1 4 
+BTN C3 GLY CA bb_cnh 1 4
+BTN N2 GLY N bb_cnh 1 4
+BTN HN2 GLY H bb_cnh 1 4
+BTN C3 LYS CA bb_cnh 1 4
+BTN N2 LYS N bb_cnh 1 4
+BTN HN2 LYS H bb_cnh 1 4
+
+BTN C4 ALA CA bb_cnh 2 4
+BTN N2 ALA N bb_cnh 2 4
+BTN HN2 ALA H bb_cnh 2 4 
+BTN C4 GLY CA bb_cnh 2 4
+BTN N2 GLY N bb_cnh 2 4
+BTN HN2 GLY H bb_cnh 2 4
+BTN C4 LYS CA bb_cnh 2 4
+BTN N2 LYS N bb_cnh 2 4
+BTN HN2 LYS H bb_cnh 2 4
+
+BTN C3 ALA CA bb_cnh 3 5
+BTN N1 ALA N bb_cnh 3 5
+BTN HN1 ALA H bb_cnh 3 5 
+BTN C3 GLY CA bb_cnh 3 5
+BTN N1 GLY N bb_cnh 3 5
+BTN HN1 GLY H bb_cnh 3 5
+BTN C3 LYS CA bb_cnh 3 5
+BTN N1 LYS N bb_cnh 3 5
+BTN HN1 LYS H bb_cnh 3 5
+
+BTN C5 ALA CA bb_cnh 4 5
+BTN N1 ALA N bb_cnh 4 5
+BTN HN1 ALA H bb_cnh 4 5
+BTN C5 GLY CA bb_cnh 4 5
+BTN N1 GLY N bb_cnh 4 5
+BTN HN1 GLY H bb_cnh 4 5
+BTN C5 LYS CA bb_cnh 4 5
+BTN N1 LYS N bb_cnh 4 5
+BTN HN1 LYS H bb_cnh 4 5
+
+BTN C2 MET CG csc 1 2
+BTN S1 MET SD csc 1 2
+BTN C6 MET CE csc 1 2
+
+BTN C6 MET CG csc 2 2
+BTN S1 MET SD csc 2 2
+BTN C2 MET CE csc 2 2
+
+BTN N1 GLN NE2 conh2 1 3
+BTN C3 GLN CD conh2 1 3
+BTN O3 GLN OE1 conh2 1 3
+BTN N2 GLN CG conh2 1 3
+BTN HN1 GLN HE21 conh2 1 3 no_rmsd
+BTN N1 ASN ND2 conh2 1 3
+BTN C3 ASN CG conh2 1 3
+BTN O3 ASN OD1 conh2 1 3
+BTN N2 ASN CB conh2 1 3
+BTN HN1 ASN HD21 conh2 1 3 no_rmsd
+
+BTN N2 GLN NE2 conh2 2 3
+BTN C3 GLN CD conh2 2 3
+BTN O3 GLN OE1 conh2 2 3
+BTN N1 GLN CG conh2 2 3
+BTN HN2 GLN HE21 conh2 2 3 no_rmsd
+BTN N2 ASN ND2 conh2 2 3
+BTN C3 ASN CG conh2 2 3
+BTN O3 ASN OD1 conh2 2 3
+BTN N1 ASN CB conh2 2 3
+BTN HN2 ASN HD21 conh2 2 3 no_rmsd
+
+
+
+
+
+
+
+

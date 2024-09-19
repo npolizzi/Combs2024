@@ -1,0 +1,6 @@
+14 A _, PIKAA Q, CG bb_cco, bbdep 1, rotamer, top 2, enriched 
+14 A _, PIKAA Q, CG conh2, bbdep 1, rotamer, top 2, enriched 
+6 A _, PIKAA Y, CG bb_cco, bbdep 1, rotamer, enriched 
+6 A _, PIKAA Y, CG conh2, bbdep 1, rotamer, enriched 
+49 A _, PIKAA H, CG bb_cco, bbdep 1, rotamer, enriched 
+49 A _, PIKAA H, CG conh2, bbdep 1, rotamer, enriched 

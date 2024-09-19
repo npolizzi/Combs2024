@@ -1,0 +1,26 @@
+#!/bin/bash
+
+#$ -S /bin/bash
+#$ -o /wynton/home/degradolab/nick.polizzi/Combs2/designs/apixaban/20210922/logfiles
+#$ -e /wynton/home/degradolab/nick.polizzi/Combs2/designs/apixaban/20210922/logfiles
+#$ -cwd
+#$ -r y
+#$ -j y
+#$ -l mem_free=8G
+#$ -l hostname="qb3*&!qb3-ad*&!*gpu*"
+#$ -l h_rt=08:00:00
+
+export OMP_NUM_THREADS=1
+
+date
+hostname
+
+#ind=$SGE_TASK_ID
+
+conda activate env_combs
+path_to_lig_cg_folders=/wynton/scratch/nick.polizzi/comb/lig_vdMs/apixaban/GG2/enriched/
+
+python /wynton/home/degradolab/nick.polizzi/Combs2/combs2/programs/run_combine_ligs.py  --path_to_lig_cg_folders=$path_to_lig_cg_folders
+
+qstat -j $JOB_ID                                  # This is useful for debugging and usage purposes,
+                                                  # e.g. "did my job exceed its memory request?"

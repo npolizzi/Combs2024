@@ -1,0 +1,33 @@
+48 A A, PIKAA PQRNTM, CG bb_cco, bbdep 1, top 2, enriched, hbond_only 
+48 A A, PIKAA G, CG bb_cco, bbdep 1, top 2, enriched 
+48 A A, PIKAA PSDQRNTM, CG conh2, bbdep 1, top 2, enriched, hbond_only 
+55 A A, PIKAA PQRNTM, CG bb_cco, bbdep 1, top 2, enriched, hbond_only 
+55 A A, PIKAA G, CG bb_cco, bbdep 1, top 2, enriched 
+55 A A, PIKAA PSDQRNTM, CG conh2, bbdep 1, top 2, enriched, hbond_only 
+99 A A, PIKAA PQRNTM, CG bb_cco, bbdep 1, top 2, enriched, hbond_only 
+99 A A, PIKAA G, CG bb_cco, bbdep 1, top 2, enriched 
+99 A A, PIKAA PSDQRNTM, CG conh2, bbdep 1, top 2, enriched, hbond_only 
+21 A A, PIKAA PVLCTIM, CG bb_cco, bbdep 1, enriched, hbond_only 
+21 A A, PIKAA FWHGY, CG bb_cco, bbdep 1, enriched 
+21 A A, PIKAA TMPS, CG conh2, bbdep 1, enriched, hbond_only 
+21 A A, PIKAA WHYF, CG conh2, bbdep 1, enriched 
+28 A A, PIKAA PVLCTIM, CG bb_cco, bbdep 1, enriched, hbond_only 
+28 A A, PIKAA FWHGY, CG bb_cco, bbdep 1, enriched 
+28 A A, PIKAA TMPS, CG conh2, bbdep 1, enriched, hbond_only 
+28 A A, PIKAA WHYF, CG conh2, bbdep 1, enriched 
+44 A A, PIKAA PVLCTIM, CG bb_cco, bbdep 1, enriched, hbond_only 
+44 A A, PIKAA FWHGY, CG bb_cco, bbdep 1, enriched 
+44 A A, PIKAA TMPS, CG conh2, bbdep 1, enriched, hbond_only 
+44 A A, PIKAA WHYF, CG conh2, bbdep 1, enriched 
+51 A A, PIKAA PVLCTIM, CG bb_cco, bbdep 1, enriched, hbond_only 
+51 A A, PIKAA FWHGY, CG bb_cco, bbdep 1, enriched 
+51 A A, PIKAA TMPS, CG conh2, bbdep 1, enriched, hbond_only 
+51 A A, PIKAA WHYF, CG conh2, bbdep 1, enriched 
+95 A A, PIKAA PVLCTIM, CG bb_cco, bbdep 1, enriched, hbond_only 
+95 A A, PIKAA FWHGY, CG bb_cco, bbdep 1, enriched 
+95 A A, PIKAA TMPS, CG conh2, bbdep 1, enriched, hbond_only 
+95 A A, PIKAA WHYF, CG conh2, bbdep 1, enriched 
+102 A A, PIKAA PVLCTIM, CG bb_cco, bbdep 1, enriched, hbond_only 
+102 A A, PIKAA FWHGY, CG bb_cco, bbdep 1, enriched 
+102 A A, PIKAA TMPS, CG conh2, bbdep 1, enriched, hbond_only 
+102 A A, PIKAA WHYF, CG conh2, bbdep 1, enriched 

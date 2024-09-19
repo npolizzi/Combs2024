@@ -1,0 +1,77 @@
+# List of corresponding ligand atoms to amino-acid atoms
+# ligand residue name, atom name, amino-acid residue name, atom name, CG type, CG group number, CG ligand coverage number
+
+GG2 N3 GLN NE2 conh2 1 1
+GG2 C11 GLN CD conh2 1 1
+GG2 O1 GLN OE1 conh2 1 1
+GG2 C10 GLN CG conh2 1 1
+GG2 N3 ASN ND2 conh2 1 1
+GG2 C11 ASN CG conh2 1 1
+GG2 O1 ASN OD1 conh2 1 1
+GG2 C10 ASN CB conh2 1 1
+
+GG2 O3 ALA O bb_cco 1 2
+GG2 C8 ALA C bb_cco 1 2
+GG2 N5 ALA CA bb_cco 1 2
+GG2 O3 GLY O bb_cco 1 2
+GG2 C8 GLY C bb_cco 1 2
+GG2 N5 GLY CA bb_cco 1 2
+GG2 O3 PRO O bb_cco 1 2
+GG2 C8 PRO C bb_cco 1 2 
+GG2 N5 PRO CA bb_cco 1 2
+
+# Alternate (N5 --> C13)
+GG2 O3 ALA O bb_cco 2 2
+GG2 C8 ALA C bb_cco 2 2
+GG2 C13 ALA CA bb_cco 2 2
+GG2 O3 GLY O bb_cco 2 2
+GG2 C8 GLY C bb_cco 2 2
+GG2 C13 GLY CA bb_cco 2 2
+GG2 O3 PRO O bb_cco 2 2
+GG2 C8 PRO C bb_cco 2 2
+GG2 C13 PRO CA bb_cco 2 2
+
+GG2 O2 ALA O bb_cco 3 3
+GG2 C19 ALA C bb_cco 3 3
+GG2 N2 ALA CA bb_cco 3 3
+GG2 O2 GLY O bb_cco 3 3
+GG2 C19 GLY C bb_cco 3 3
+GG2 N2 GLY CA bb_cco 3 3
+GG2 O2 PRO O bb_cco 3 3
+GG2 C19 PRO C bb_cco 3 3
+GG2 N2 PRO CA bb_cco 3 3
+
+# Alternate (N2 --> C23)
+GG2 O2 ALA O bb_cco 4 3
+GG2 C19 ALA C bb_cco 4 3
+GG2 C23 ALA CA bb_cco 4 3 
+GG2 O2 GLY O bb_cco 4 3
+GG2 C19 GLY C bb_cco 4 3
+GG2 C23 GLY CA bb_cco 4 3
+GG2 O2 PRO O bb_cco 4 3
+GG2 C19 PRO C bb_cco 4 3
+GG2 C23 PRO CA bb_cco 4 3
+
+# use bb_cco for the c-c=o part of conh2
+GG2 O1 ALA O bb_cco 5 1
+GG2 C11 ALA C bb_cco 5 1
+GG2 C10 ALA CA bb_cco 5 1
+GG2 O1 GLY O bb_cco 5 1
+GG2 C11 GLY C bb_cco 5 1
+GG2 C10 GLY CA bb_cco 5 1
+GG2 O1 PRO O bb_cco 5 1
+GG2 C11 PRO C bb_cco 5 1
+GG2 C10 PRO CA bb_cco 5 1
+
+#alt
+GG2 O1 ALA O bb_cco 6 1
+GG2 C11 ALA C bb_cco 6 1
+GG2 N3 ALA CA bb_cco 6 1
+GG2 O1 GLY O bb_cco 6 1
+GG2 C11 GLY C bb_cco 6 1
+GG2 N3 GLY CA bb_cco 6 1
+GG2 O1 PRO O bb_cco 6 1
+GG2 C11 PRO C bb_cco 6 1
+GG2 N3 PRO CA bb_cco 6 1
+
+
