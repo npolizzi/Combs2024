@@ -1,0 +1,48 @@
+conh2 
+	 ASN 	HD21, HD22, ND2, OD1, CG, CB 
+	 GLN 	HE21, HE22, NE2, OE1, CD, CG 
+bb_cco 
+	 GLY 	CA, C, O 
+	 ALA 	CA, C, O 
+	 PRO 	CA, C, O 
+ph 
+	 PHE 	CG, CD1, HD1, CD2, HD2, CE1, HE1, CE2, HE2, CZ, HZ 
+bb_cnh 
+	 GLY 	CA, N, H 
+	 ALA 	CA, N, H 
+	 LYS 	CA, N, H 
+ccn 
+	 LYS 	CD, HD2, HD3, CE, HE2, HE3, NZ, HZ1, HZ2, HZ3 
+ccoh 
+	 SER 	CA, CB, OG, HG 
+	 THR 	CA, CB, OG1, HG1 
+coh 
+	 SER 	CB, OG, HG 
+	 THR 	CB, OG1, HG1 
+coo 
+	 ASP 	CB, CG, OD1, OD2 
+	 GLU 	CG, CD, OE1, OE2 
+csc 
+	 MET 	CG, HG2, HG3, SD, CE, HE1, HE2, HE3 
+csh 
+	 CYS 	CB, SG, HG 
+gn 
+	 ARG 	CD, NE, HE, CZ, NH2, HH21, HH22, NH1, HH11, HH12 
+hid 
+	 HIS 	CG, ND1, HD1, CE1, HE1, NE2, CD2, HD2 
+hie 
+	 HIS 	CG, ND1, CE1, HE1, NE2, HE2, CD2, HD2 
+hip 
+	 HIS 	CG, ND1, HD1, CE1, HE1, NE2, HE2, CD2, HD2 
+indole 
+	 TRP 	CG, CD1, HD1, NE1, HE1, CD2, CE2, CZ2, CE3, HE3, HZ2, CH2, CZ3, HH2, HZ3 
+phenol 
+	 TYR 	CG, CD1, HD1, CD2, HD2, CE1, HE1, CE2, HE2, CZ, OH, HH 
+isopropyl 
+	 LEU 	CG, CD1, CD2, HG, HD11, HD12, HD13, HD21, HD22, HD23 
+	 VAL 	CB, CG1, CG2, HB, HG11, HG12, HG13, HG21, HG22, HG23 
+pro 
+	 PRO 	CB, CG, CD, HB2, HB3, HG2, HG3, HD2, HD3 
+ch3 
+	 ALA 	CA, C, CB, HB1, HB2, HB3 
+	 ILE 	CB, CG1, CD1, HD11, HD12, HD13 
