@@ -1,0 +1,97 @@
+#! /bin/sh
+# LIBTBX_DISPATCHER DO NOT EDIT
+#
+# THIS IS AN AUTOMATICALLY GENERATED FILE.
+# DO NOT EDIT! CHANGES WILL BE LOST.
+# To customize this auto-generated script create
+#
+#   dispatcher_include*.sh
+#
+# files in "/Users/npolizzi/Applications/MolProbity/build" and run
+#
+#   libtbx.refresh
+#
+# to re-generate the dispatchers (libtbx.refresh is a subset
+# of the functionality of the libtbx/configure.py command).
+#
+# See also:
+#   "/Users/npolizzi/Applications/MolProbity/build/dispatcher_include_template.sh"
+#
+
+# ----------------------------------------------------------------------------
+# The shellrealpath function resolves an absolute physical path of its
+# first argument and stores it in a global shell variable RESULT.
+# The function returns nonzero for unreadable or invalid symlinks
+# and resets the RESULT to an empty string.
+
+shellrealpath() {
+    local ORGDIR="$PWD"
+    local TARGET="$1"
+    RESULT=""
+    # This test fails for a symlink loop.  We can do without resolution
+    # of symlinks that point to existing unreadable files.
+    [ -r "$TARGET" ] || return $?
+    # Check if the readlink command exists.
+    type readlink >/dev/null || return $?
+    while true; do
+        cd "$(dirname "$TARGET")"
+        TARGET="$(basename "$TARGET")"
+        if [ -L "$TARGET" ]; then
+            TARGET="$(readlink "$TARGET")"
+            continue
+        fi
+        RESULT="$(pwd -P)/$TARGET"
+        break
+    done
+    cd "$ORGDIR"
+}
+# ----------------------------------------------------------------------------
+
+unset PYTHONHOME
+LC_ALL=en_US.UTF-8
+export LC_ALL
+LIBTBX_BUILD="$(shellrealpath "$0" && cd "$(dirname "$RESULT")/.." && pwd)"
+export LIBTBX_BUILD
+LIBTBX_PYEXE_BASENAME="Python"
+export LIBTBX_PYEXE_BASENAME
+LIBTBX_DISPATCHER_NAME="phenix.rotalyze"
+export LIBTBX_DISPATCHER_NAME
+if [ -n "$PYTHONPATH" ]; then
+  PYTHONPATH="$LIBTBX_BUILD/../modules/cctbx_project:$LIBTBX_BUILD/../modules:$LIBTBX_BUILD/../modules/cctbx_project/boost_adaptbx:$LIBTBX_BUILD/lib:/Library/Python/2.7/site-packages:/System/Library/Frameworks/Python.framework/Versions/2.7/lib/site-python:/System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages:$PYTHONPATH"
+  export PYTHONPATH
+else
+  PYTHONPATH="$LIBTBX_BUILD/../modules/cctbx_project:$LIBTBX_BUILD/../modules:$LIBTBX_BUILD/../modules/cctbx_project/boost_adaptbx:$LIBTBX_BUILD/lib:/Library/Python/2.7/site-packages:/System/Library/Frameworks/Python.framework/Versions/2.7/lib/site-python:/System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages"
+  export PYTHONPATH
+fi
+if [ -n "$DYLD_LIBRARY_PATH" ]; then
+  DYLD_LIBRARY_PATH="$LIBTBX_BUILD/lib:/System/Library/Frameworks/Python.framework/Versions/2.7/lib:$DYLD_LIBRARY_PATH"
+  export DYLD_LIBRARY_PATH
+else
+  DYLD_LIBRARY_PATH="$LIBTBX_BUILD/lib:/System/Library/Frameworks/Python.framework/Versions/2.7/lib"
+  export DYLD_LIBRARY_PATH
+fi
+if [ -n "$PATH" ]; then
+  PATH="$LIBTBX_BUILD/bin:$PATH"
+  export PATH
+else
+  PATH="$LIBTBX_BUILD/bin"
+  export PATH
+fi
+# ---------------------------------------------
+# lines marked LIBTBX_PRE_DISPATCHER_INCLUDE_SH
+export PHENIX_GUI_ENVIRONMENT=1
+# ---------------------------------------------
+# ----------------------------------------------
+# lines marked LIBTBX_POST_DISPATCHER_INCLUDE_SH
+# ----------------------------------------------
+LIBTBX_PYEXE="/System/Library/Frameworks/Python.framework/Versions/2.7/Resources/Python.app/Contents/MacOS/$LIBTBX_PYEXE_BASENAME"
+export LIBTBX_PYEXE
+if [ -n "$LIBTBX__VALGRIND_FLAG__" ]; then
+  exec $LIBTBX_VALGRIND "$LIBTBX_PYEXE" -Qnew "$LIBTBX_BUILD/../modules/cctbx_project/mmtbx/command_line/rotalyze.py" "$@"
+elif [ -n "$LIBTBX__CPROFILE_FLAG__" ]; then
+  exec  "$LIBTBX_PYEXE" -Qnew -m cProfile -o phenix.rotalyze.profile "$LIBTBX_BUILD/../modules/cctbx_project/mmtbx/command_line/rotalyze.py" "$@"
+elif [ $# -eq 0 ]; then
+  exec "$LIBTBX_PYEXE" -Qnew "$LIBTBX_BUILD/../modules/cctbx_project/mmtbx/command_line/rotalyze.py"
+else
+  exec "$LIBTBX_PYEXE" -Qnew "$LIBTBX_BUILD/../modules/cctbx_project/mmtbx/command_line/rotalyze.py" "$@"
+fi
