@@ -12,11 +12,11 @@ INSTALLATION
 ++++++++++++
 Install Combs2 by cloning the github repository, e.g. ::
 
-    > git clone https://github.com/npolizzi/Combs2.git
+    > git clone https://github.com/npolizzi/Combs2024.git
 
 Note that you can keep Combs2 up-to-date (useful for bug-fixes and updates to the code) by: ::
 
-    > git pull https://github.com/npolizzi/Combs2.git
+    > git pull https://github.com/npolizzi/Combs2024.git
 
 Within Combs2/docs/ use the **env_combs_(platform).yml** file to create a conda virtual environment for Combs2 by, e.g. ::
 
