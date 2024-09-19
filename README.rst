@@ -61,7 +61,7 @@ Note that you should activate the conda environment before using Combs.  Otherwi
 DATABASE
 ++++++++
 
-The van der Mer databases are currently hosted on DropBox (subject to change) at this `link <https://www.dropbox.com/sh/a5wakk7nonc03bv/AACbar6bDBua-HH7L_-2iO-0a?dl=0>`_.  The zipped file is about 7.5 GB currently.  For a list of available chemical groups and the amino acids from which they derive, see **CG_dicts.txt** in Combs2/combs2/files/.  Download and unzip the database file by: ::
+The van der Mer databases are currently hosted on DropBox (subject to change) at this `link <https://www.dropbox.com/sh/a5wakk7nonc03bv/AACbar6bDBua-HH7L_-2iO-0a?dl=0>`_.  The zipped file is about 7.5 GB currently.  For a list of available chemical groups and the amino acids from which they derive, see **CG_dicts.txt** in Combs2024/combs2/files/.  Download and unzip the database file by: ::
 
     > tar -xvf database.tar.gz
 
@@ -73,7 +73,7 @@ Some of the Combs functionality (e.g. classifying rotamers or secondary structur
 
 TUTORIAL
 ++++++++
-*Update:* See the script **Combs2/tutorials/HPC_scripts/biotin/run_design.py** for an example of the most up-to-date usage of COMBS.
+*Update:* See the script **Combs2024/tutorials/HPC_scripts/biotin/run_design.py** for an example of the most up-to-date usage of COMBS.
 
 DOCUMENTATION
 +++++++++++++
