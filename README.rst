@@ -77,13 +77,7 @@ TUTORIAL
 
 DOCUMENTATION
 +++++++++++++
-Coming soon...
-
-SOURCE CODE
-++++++++++++
-
-* Source code: https://github.com/npolizzi/Combs2
-* Issue tracker: https://github.com/npolizzi/Combs2/issues
+Very little unfortunately, see tutorial and example scripts.
 
 LICENSE
 +++++++
