@@ -74,6 +74,7 @@ Some of the Combs functionality (e.g. classifying rotamers or secondary structur
 TUTORIAL
 ++++++++
 *Update:* See the script **Combs2024/tutorials/HPC_scripts/biotin/run_design.py** for an example of the most up-to-date usage of COMBS.
+A link to a couple Zoom recordings for combs tutorials can be found `here <https://www.dropbox.com/scl/fo/u10ohdc7bjwbjv8xkniwg/AOigN8huLcb_tktWmjJlnoQ?rlkey=jaslipjhh6qfddmxsk9q484tn&dl=0>`_. This covers basic file creation and some background re: vdMs.
 
 DOCUMENTATION
 +++++++++++++
